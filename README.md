@@ -71,4 +71,31 @@ Para crear un archivo ejecutable (.exe) de este programa, seguiremos estos pasos
 ### Estructura de archivos
 
 Asegúrate de que tu proyecto tenga la siguiente estructura antes de crear el ejecutable:
+tu_proyecto/
+│
+├── arg_phone_standardizer.py
+├── icon.ico
+└── area_codes_dataset/
+└── area_codes.csv
 
+### Notas adicionales
+
+- Si modificas el código o los archivos de datos, deberás volver a crear el ejecutable.
+- El proceso de creación puede tardar unos minutos.
+- El archivo ejecutable resultante será significativamente más grande que el script original, ya que incluye todas las dependencias necesarias.
+
+### Distribución
+
+Para distribuir tu programa:
+
+1. Comparte el archivo .exe generado en la carpeta `dist`.
+2. Opcionalmente, incluye este README para proporcionar instrucciones de uso.
+
+### Solución de problemas
+
+Si los usuarios encuentran problemas al ejecutar el .exe, pueden intentar:
+
+1. Ejecutar como administrador.
+2. Desbloquear el archivo en las propiedades de Windows.
+3. Añadir una excepción en su software antivirus.
+4. Mover el archivo a una ubicación diferente antes de ejecutarlo.
